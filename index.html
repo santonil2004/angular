@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-ng-app="webApp">
+    <head>
+        <meta charset="utf-8">
+        <script src="lib/angular-1.2.14/angular.js"></script>
+        <script src="lib/angular-1.2.14/angular-animate.js"></script>
+        <script src="release/angular-ui-router.js"></script>
+        <script src="app/app.js"></script>
+        <title>Angular</title>
+    </head>
+    <body>
+
+        <!-- Also a way to navigate
+        <a data-ui-sref="route1">Route 1</a>
+        <a data-ui-sref="route2">Route 2</a> -->
+        
+        
+        <a href="#route1">Route 1</a>
+        <a href="#route2">Route 2</a>
+        <hr>
+
+        <div data-ui-view="viewA"></div>
+        
+        <hr>
+        
+        <div data-ui-view="viewB"></div>
+
+    </body>
+</html>
+<!--https://github.com/angular-ui/ui-router-->
